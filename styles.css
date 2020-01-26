@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+main {
+  padding: 1rem;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+#app {
+  display: flex;
+}
+.app-col {
+  border: 1px solid #000;
+  padding: 1rem;
+}
+.left-col {
+  flex-grow: 1;
+  width: 300px;
+}
+#pallet {
+  display: flex;
+  flex-wrap: wrap;
+}
+#pallet li {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+#pallet li.selected {
+  border-color: #fff;
+}
+#generate-grid {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+#generate-grid input {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem .5rem;
+}
+#generate-grid input[type="submit"] {
+  background-color: tomato;
+}
+.right-col {
+  flex-grow: 3;
+}
+#grid {
+  border-spacing: 0;
+  width: 100%;
+}
+#grid td {
+  border: 1px solid #000;
+  padding: 1rem;
+}

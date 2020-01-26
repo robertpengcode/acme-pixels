@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <title>Acme Pixels</title>
+</head>
+<body>
+  <main>
+    <h1>Acme Pixels</h1>
+
+    <section id="app">
+      <div class="app-col left-col">
+        <h2>Contols</h2>
+        <ul id="pallet">
+        </ul>
+        <form action="" name="generate-grid" id="generate-grid">
+          <input type="text" name="width" pattern="\d*" required>
+          <input type="text" name="height" pattern="\d*" required>
+          <input type="submit" value="Generate Grid" id="submit-grid">
+        </form>
+      </div>
+      <div class="app-col right-col">
+        <h2>Grid</h2>
+        <table id="grid">
+
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
